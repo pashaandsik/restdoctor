@@ -139,9 +139,9 @@ flake8-broken-line==0.3.0 \
     --hash=sha256:611f79c7f27118e7e5d3dc098ef7681c40aeadf23783700c5dbee840d2baf3af \
     --hash=sha256:f74e052833324a9e5f0055032f7ccc54b23faabafe5a26241c2f977e70b10b50
     # via -r requirements-dev.in
-flake8-bugbear==21.4.3 \
-    --hash=sha256:2346c81f889955b39e4a368eb7d508de723d9de05716c287dc860a4073dc57e7 \
-    --hash=sha256:4f305dca96be62bf732a218fe6f1825472a621d3452c5b994d8f89dae21dbafa
+flake8-bugbear==22.9.23 \
+    --hash=sha256:17b9623325e6e0dcdcc80ed9e4aa811287fcc81d7e03313b8736ea5733759937 \
+    --hash=sha256:cd2779b2b7ada212d7a322814a1e5651f1868ab0d3f24cc9da66169ab8fda474
     # via -r requirements-dev.in
 flake8-builtins==1.5.3 \
     --hash=sha256:09998853b2405e98e61d2ff3027c47033adbdc17f9fe44ca58443d876eb00f3b \
@@ -213,10 +213,6 @@ identify==2.2.2 \
     --hash=sha256:43cb1965e84cdd247e875dec6d13332ef5be355ddc16776396d98089b9053d87 \
     --hash=sha256:c7c0f590526008911ccc5ceee6ed7b085cbc92f7b6591d0ee5913a130ad64034
     # via pre-commit
-importlib-metadata==4.6.1 \
-    --hash=sha256:079ada16b7fc30dfbb5d13399a5113110dab1aa7c2bc62f66af75f0b717c8cac \
-    --hash=sha256:9f55f560e116f8643ecf2922d9cd3e1c7e8d52e683178fecd9d08f6aa357e11e
-    # via pytest-randomly
 inflection==0.5.1 \
     --hash=sha256:1a29730d366e996aaacffb2f1f1cb9593dc38e2ddd30c91250c6dde09ea9b417 \
     --hash=sha256:f38b2b640938a4f35ade69ac3d053042959b62a0f1076a5bbaa1b9526605a8a2
@@ -512,10 +508,6 @@ virtualenv==20.4.3 \
     --hash=sha256:49ec4eb4c224c6f7dd81bb6d0a28a09ecae5894f4e593c89b0db0885f565a107 \
     --hash=sha256:83f95875d382c7abafe06bd2a4cdd1b363e1bb77e02f155ebe8ac082a916b37c
     # via pre-commit
-zipp==3.5.0 \
-    --hash=sha256:957cfda87797e389580cb8b9e3870841ca991e2125350677b2ca83a0e99390a3 \
-    --hash=sha256:f5812b1e007e48cff63449a5e9f4e7ebea716b4111f9c4f9a645f91d579bf0c4
-    # via importlib-metadata
 
 # WARNING: The following packages were not pinned, but pip requires them to be
 # pinned when the requirements file includes hashes. Consider using the --allow-unsafe flag.
